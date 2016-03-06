@@ -1,0 +1,474 @@
+body {
+  overflow-x: hidden;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+  width: 950px !important;
+}
+
+.text-muted {
+  color: #777
+}
+
+.text-primary {
+  color: #ec6a0b;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+p.large {
+  font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  outline: 0;
+}
+
+a {
+  color: #ec6a0b;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #ec6a0b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.img-centered {
+  margin: 0 auto;
+}
+
+.bg-light-gray {
+  background-color: #f7f7f7;
+}
+
+.bg-darkest-gray {
+  background-color: #222;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #ec6a0b;
+  border-color: #ec6a0b;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #ec6a0b;
+  border-color: #f6bf01;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #ec6a0b;
+  border-color: #ec6a0b;
+}
+
+.btn-primary .badge {
+  color: #ec6a0b;
+  background-color: #fff;
+}
+
+.btn-sm {
+  color: #fff;
+  background-color: #ec6a0b;
+  border-color: #ec6a0b;
+  border-radius: 12px;
+  padding: 15px 25px;
+}
+
+.btn-sm:hover,
+.btn-sm:focus,
+.btn-sm:active,
+.btn-sm.active,
+.open .dropdown-toggle.btn-sm {
+  color: #fff;
+  background-color: #f16d11;
+  border-color: #f16d11;
+}
+
+.btn-sm:active,
+.btn-sm.active,
+.open .dropdown-toggle.btn-sm {
+  background-image: none;
+}
+
+.btn-sm.disabled,
+.btn-sm[disabled],
+fieldset[disabled] .btn-sm,
+.btn-sm.disabled:hover,
+.btn-sm[disabled]:hover,
+fieldset[disabled] .btn-sm:hover,
+.btn-sm.disabled:focus,
+.btn-sm[disabled]:focus,
+fieldset[disabled] .btn-sm:focus,
+.btn-sm.disabled:active,
+.btn-sm[disabled]:active,
+fieldset[disabled] .btn-sm:active,
+.btn-sm.disabled.active,
+.btn-sm[disabled].active,
+fieldset[disabled] .btn-sm.active {
+  background-color: #ec6a0b;
+  border-color: #ec6a0b;
+}
+
+.btn-sm .badge {
+  color: #ec6a0b;
+  background-color: #fff;
+}
+
+.navbar-default {
+  background-color: #222;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+  padding-top: 0;
+}
+
+.navbar-default .navbar-brand img {
+  width: 220px;
+  margin-top: -5px;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+  color: #ec6a0b;
+}
+
+.navbar-default .navbar-collapse {
+  height: 80px !important;
+}
+
+.navbar-default .navbar-toggle {
+  background-color: #ec6a0b;
+  border-color: #ec6a0b
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ec6a0b
+}
+
+.navbar-default .nav li a {
+  letter-spacing: 1px;
+  color: #fff
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+  color: #ec6a0b;
+  outline: 0
+}
+
+.navbar-default .navbar-right {
+  margin-top: 15px;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  border-radius: 0;
+  color: #fff;
+  background-color: #ec6a0b
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+  color: #fff;
+  background-color: #ec6a0b
+}
+
+@media (min-width:768px) {
+  .navbar-default {
+    background-color: transparent;
+    padding: 25px 0;
+    -webkit-transition: padding .3s;
+    -moz-transition: padding .3s;
+    transition: padding .3s;
+    border: 0
+  }
+  .navbar-default .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s
+  }
+  .navbar-default .navbar-nav>.active>a {
+    border-radius: 3px
+  }
+  .navbar-default.navbar-shrink {
+    background-color: #fff;
+  }
+  .navbar-default.navbar-shrink .nav li a {
+    color: #000;
+  }
+  .navbar-default.navbar-shrink .nav li a:hover {
+    color: #ec6a0b;
+  }
+}
+
+header {
+  background-image: url(../img/header-bg.jpg);
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: #fff;
+  height: 620px;
+}
+
+header .intro-text {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+header .intro-text .intro-lead {
+  font-size: 74px;
+  line-height: 75px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+
+header .intro-text .intro-sub-lead {
+  font-size: 20.42px;
+  line-height: 20.84px;
+  margin-bottom: 40px;
+}
+
+header .intro-text .btn {
+  font-size: 14px;
+  line-height: 16.33px;
+}
+
+@media (min-width:768px) {
+  header .intro-text {
+    padding-top: 200px;
+    padding-bottom: 200px
+  }
+  header .intro-text .intro-lead-in {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px
+  }
+  header .intro-text .intro-heading {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 50px
+  }
+}
+
+section {
+  padding: 70px 0
+}
+
+section .section-heading {
+  font-size: 53.09px;
+  font-weight: bold;
+  line-height: 54.2px;
+  margin-top: 0;
+  margin-bottom: 15px
+}
+
+section p.section-subheading {
+  font-size: 15px;
+  line-height: 32.33px;
+  margin-bottom: 20px;
+}
+
+@media (min-width:768px) {
+  section {
+    padding: 100px 50px;
+  }
+}
+
+#quem-somos .section-subheading {
+  padding: 0 70px 60px 70px;
+}
+
+#quem-somos #metodologia .title {
+  padding-bottom: 40px;
+}
+
+#quem-somos #metodologia .title .title-wrapper {
+  width: 100%;
+  border-bottom: 1px dashed #e1e1e1;
+  text-align: center;
+  font-style: italic;
+  font-size: 22px;
+  position: relative;
+  top: -20px;
+}
+
+#quem-somos #metodologia .title span {
+  background-color: #FFF;
+  padding: 0 20px;
+  top: 15px;
+  position: relative;
+}
+
+#quem-somos #metodologia .row.box {
+  display: flex;
+  align-items: center;
+}
+
+#quem-somos #metodologia .row.box p.text-muted {
+  font-size: 13px;
+  line-height:18px;
+}
+
+#quem-somos #metodologia .icon-boxed {
+  border: 1px solid #ededed;
+}
+
+#quem-somos #metodologia .icon-boxed object {
+  width: inherit;
+  padding: 20px;
+   color: #ec6a0b;
+}
+
+#entre-em-contato {
+  padding-bottom: 45px;
+}
+
+#entre-em-contato .call-to-action {
+  font-size: 14px;
+}
+
+footer {
+  padding: 25px 0;
+  color: #c2c2c2;
+}
+
+footer hr {
+  border-width: 2px;
+}
+
+ul.social-buttons {
+  margin-bottom: 0
+}
+
+ul.social-buttons li {
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+ul.social-buttons li.text {
+  font-size: 15px;
+  line-height: 16.33px;
+}
+
+ul.social-buttons li a,
+ul.social-buttons li span {
+  display: block;
+  border: 2px solid #c2c2c2;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: #c2c2c2;
+  outline: 0;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  border: 2px solid #000;
+  color: #000;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+  outline: 0
+}
+
+::-moz-selection {
+  text-shadow: none;
+  background: #ec6a0b;
+  color: #fff;
+}
+
+::selection {
+  text-shadow: none;
+  background: #ec6a0b;
+  color: #fff;
+}
+
+img::selection {
+  background: 0 0
+}
+
+img::-moz-selection {
+  background: 0 0
+}
+
+body {
+  webkit-tap-highlight-color: #ec6a0b
+}
