@@ -3,9 +3,23 @@ body {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.container {
-  width: 950px !important;
+@media (min-width: 1240px) {
+  .container-fluid {
+    padding-left: 180px;
+    padding-right: 180px;
+  }
 }
+
+@media (max-width: 1240px) and (min-width: 1024px) {
+  .container-fluid {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+/*.container, .container-fluid {
+  width: 950px !important;
+}*/
 
 .text-muted {
   color: #777
@@ -164,7 +178,7 @@ fieldset[disabled] .btn-sm.active {
 }
 
 .navbar-default {
-  background-color: #222;
+  background-color: #fff;
   border-color: transparent;
 }
 
@@ -174,7 +188,7 @@ fieldset[disabled] .btn-sm.active {
 
 .navbar-default .navbar-brand img {
   width: 220px;
-  margin-top: -5px;
+  /*margin-top: -15px;*/
 }
 
 .navbar-default .navbar-brand:hover,
@@ -183,11 +197,11 @@ fieldset[disabled] .btn-sm.active {
 .navbar-default .navbar-brand.active {
   color: #ec6a0b;
 }
-
+/*
 .navbar-default .navbar-collapse {
   height: 80px !important;
 }
-
+*/
 .navbar-default .navbar-toggle {
   background-color: #ec6a0b;
   border-color: #ec6a0b
@@ -213,10 +227,6 @@ fieldset[disabled] .btn-sm.active {
   outline: 0
 }
 
-.navbar-default .navbar-right {
-  margin-top: 15px;
-}
-
 .navbar-default .navbar-nav>.active>a {
   border-radius: 0;
   color: #fff;
@@ -229,14 +239,53 @@ fieldset[disabled] .btn-sm.active {
   background-color: #ec6a0b
 }
 
+.navbar-default .navbar-collapse {
+  height: 85px !important;
+}
+
+.navbar-default .navbar-right {
+  padding-top: 20px;
+}
+
+@media (max-width:768px) {
+  header {
+    margin-top: 120px;
+  }
+
+  .navbar-header {
+    height: 120px;
+  }
+
+  .navbar-header .navbar-toggle {
+    margin-top: 45px;
+  }
+
+  .navbar-default .navbar-brand img {
+    padding-top: 20px;
+  }
+
+  .navbar-default .navbar-collapse.in {
+    height: 250px !important;
+  }
+
+  .navbar-default .navbar-collapse.in .nav li a {
+    color: #000;
+  }
+  
+  .navbar-default .navbar-collapse.in .nav li :hover,
+  .navbar-default .navbar-collapse.in .nav li :focus {
+    color: #ec6a0b;
+  }
+}
+
 @media (min-width:768px) {
   .navbar-default {
     background-color: transparent;
-    padding: 25px 0;
+    padding: 20px 0;
     -webkit-transition: padding .3s;
     -moz-transition: padding .3s;
     transition: padding .3s;
-    border: 0
+    border: 0;
   }
   .navbar-default .navbar-brand {
     font-size: 2em;
@@ -244,6 +293,11 @@ fieldset[disabled] .btn-sm.active {
     -moz-transition: all .3s;
     transition: all .3s
   }
+/*
+  .navbar-default .navbar-brand {
+    margin-top: 10px;
+  }
+  */
   .navbar-default .navbar-nav>.active>a {
     border-radius: 3px
   }
@@ -273,7 +327,7 @@ header {
 }
 
 header .intro-text {
-  padding-top: 100px;
+  padding-top: 20px;
   padding-bottom: 50px;
   text-align: left;
 }
@@ -337,14 +391,19 @@ section p.section-subheading {
   margin-bottom: 20px;
 }
 
-@media (min-width:768px) {
+/*@media (min-width:768px) {
   section {
     padding: 100px 50px;
   }
 }
+*/
+/*#quem-somos .section-subheading {
+  padding: 0 70px 60px 70px;
+}
+*/
 
 #quem-somos .section-subheading {
-  padding: 0 70px 60px 70px;
+  padding-bottom: 60px;
 }
 
 #quem-somos #metodologia .title {
