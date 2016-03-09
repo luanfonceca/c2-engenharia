@@ -25,6 +25,10 @@ body {
   color: #777
 }
 
+.text-italic {
+  font-style: italic;
+}
+
 .text-primary {
   color: #ec6a0b;
 }
@@ -312,6 +316,25 @@ fieldset[disabled] .btn-sm.active {
   }
 }
 
+
+.title .title-wrapper {
+  width: 100%;
+  border-bottom: 1px dashed #e1e1e1;
+  text-align: center;
+  font-style: italic;
+  font-size: 22px;
+  position: relative;
+  top: -20px;
+}
+
+.title span {
+  background-color: #FFF;
+  padding: 0 20px;
+  top: 15px;
+  position: relative;
+}
+
+
 header {
   background-image: url(../img/header-bg.jpg);
   background-repeat: none;
@@ -484,6 +507,104 @@ section p.section-subheading {
 
 #entre-em-contato .call-to-action {
   font-size: 14px;
+}
+
+#nossa-construtora section {
+  margin-top: 80px;
+  padding-bottom: 30px;
+}
+
+#nossa-construtora section .section-heading {
+  padding-top: 20px;
+  border-top: 1px solid #e4e4e4;
+}
+
+#nossa-construtora header {
+  padding-top: 220px;
+  height: 470px;
+}
+
+@media (max-width: 480px) {
+  #nossa-construtora header {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  #nossa-construtora header {
+    min-height: 621px;
+  }
+
+  #nossa-construtora header .container-fluid {
+    height: 400px !important;
+  }
+}
+
+#nossa-construtora header .container-fluid {
+  background-color: #303030;
+  height: 255px;
+}
+
+#nossa-construtora header .section-subheading {
+  font-size: 15px;
+  line-height: 32.33px;
+  margin-top:55px;
+}
+
+#nossa-construtora header .scroll-down {
+  font-size:20px;
+  margin-top:10px;
+  display: inline-block;
+  border: 2px solid #c2c2c2;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  line-height: 36px;
+  color: #c2c2c2;
+  outline: 0;
+}
+
+#pilares {
+  padding-bottom: 0
+}
+
+#pilares .boxes {
+  padding-bottom: 70px;
+}
+
+#pilares .boxes .box {
+  padding: 0 10px;
+}
+
+#pilares .boxes .box-content {
+  border: 1px solid #e4e4e4;
+  height: 165px;
+  font-size: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#pilares .boxes .box-content.box-inverse {
+  background-color: #000;
+  color: #fff;
+}
+
+#nossos-gestores {
+  padding-bottom: 0
+}
+
+#nossos-gestores img {
+  width: 100%;
+}
+
+#nossos-gestores .gestor {
+  padding: 20px;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+#nossos-gestores .gestor .content {
+  padding-top: 20px;
 }
 
 footer {
