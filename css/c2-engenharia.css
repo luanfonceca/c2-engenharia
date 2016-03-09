@@ -339,6 +339,31 @@ header .intro-text .intro-lead {
   font-weight: bolder;
 }
 
+@media (max-width: 480px) {
+  header {
+    height: 460px;
+  }
+
+  header .intro-text .intro-lead {
+    font-size: 54px;
+    line-height: 55px;
+  }
+
+  header .intro-text .btn {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .navbar-default .navbar-toggle {
+    margin-right: 25px !important;
+  }
+
+  header .intro-text .intro-lead {
+    font-size: 44px;
+    line-height: 45px;
+  }
+}
 
 header .intro-text .intro-sub-lead {
   font-size: 20.42px;
@@ -432,6 +457,12 @@ section p.section-subheading {
   align-items: center;
 }
 
+@media (max-width: 480px) {
+  #quem-somos #metodologia .row.box {
+    margin: 20px 0;
+  }
+}
+
 #quem-somos #metodologia .row.box p.text-muted {
   font-size: 13px;
   line-height:18px;
@@ -466,6 +497,12 @@ footer hr {
 
 ul.social-buttons {
   margin-bottom: 0
+}
+
+@media (max-width: 480px) {
+  footer .row .col-md-4:not(:first-child):not(:last-child) {
+    margin: 20px 0;
+  }
 }
 
 ul.social-buttons li {

@@ -15,6 +15,14 @@ body {
   height: 365px;
 }
 
+@media (max-width: 480px) {
+  .carousel,
+  .item,
+  .active {
+    height: 450px;
+  }
+}
+
 .carousel-inner {
   height: 100%;
 }
@@ -24,6 +32,16 @@ body {
   align-items: center;
   font-weight: 300;
   top: 20px;
+}
+
+@media (max-width: 480px) {
+  .carousel-inner .carousel-caption {
+    display: block;
+  }
+
+  .carousel-inner .carousel-caption .col-md-4:first-child {
+    padding-bottom: 10px;
+  }
 }
 
 .carousel-inner .carousel-caption img {
