@@ -334,6 +334,51 @@ fieldset[disabled] .btn-sm.active {
   position: relative;
 }
 
+#nossa-construtora header.cover-photo {
+  padding-top: 215px;
+  height: 470px;
+}
+
+
+@media (max-width: 480px) {
+  header.cover-photo {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  #nossa-construtora header.cover-photo {
+    min-height: 621px;
+  }
+
+  #nossa-construtora header.cover-photo .container-fluid {
+    height: 400px !important;
+  }
+}
+
+#nossa-construtora header.cover-photo .container-fluid {
+  background-color: #303030;
+  height: 255px;
+}
+
+header.cover-photo .section-subheading {
+  font-size: 15px;
+  line-height: 32.33px;
+  margin-top:55px;
+}
+
+header.cover-photo .scroll-down {
+  font-size:20px;
+  margin-top:10px;
+  display: inline-block;
+  border: 2px solid #fff;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  line-height: 36px;
+  color: #fff;
+  outline: 0;
+}
 
 header {
   background-image: url(../img/header-bg.jpg);
@@ -346,7 +391,7 @@ header {
   -o-background-size: cover;
   text-align: center;
   color: #fff;
-  height: 620px;
+  /*height: 620px;*/
 }
 
 header .intro-text {
@@ -509,59 +554,24 @@ section p.section-subheading {
   font-size: 14px;
 }
 
-#nossa-construtora section {
-  margin-top: 80px;
-  padding-bottom: 30px;
+#entre-em-contato .section-subheading {
+  font-size: 20.42px;
 }
 
-#nossa-construtora section .section-heading {
-  padding-top: 20px;
-  border-top: 1px solid #e4e4e4;
+#servicos header {
+  background-image: url(../img/header-servicos-bg.jpg);
+  background-size: 100%;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 215px !important;
+  height: initial;
 }
 
-#nossa-construtora header {
-  padding-top: 220px;
-  height: 470px;
-}
-
-@media (max-width: 480px) {
-  #nossa-construtora header {
-    margin-top: 0px;
+@media (max-width: 1320px) {
+  #servicos header {
+    background-size: inherit;
   }
-}
-
-@media (max-width: 480px) {
-  #nossa-construtora header {
-    min-height: 621px;
-  }
-
-  #nossa-construtora header .container-fluid {
-    height: 400px !important;
-  }
-}
-
-#nossa-construtora header .container-fluid {
-  background-color: #303030;
-  height: 255px;
-}
-
-#nossa-construtora header .section-subheading {
-  font-size: 15px;
-  line-height: 32.33px;
-  margin-top:55px;
-}
-
-#nossa-construtora header .scroll-down {
-  font-size:20px;
-  margin-top:10px;
-  display: inline-block;
-  border: 2px solid #c2c2c2;
-  height: 40px;
-  width: 40px;
-  border-radius: 100%;
-  line-height: 36px;
-  color: #c2c2c2;
-  outline: 0;
 }
 
 #pilares {
@@ -606,6 +616,75 @@ section p.section-subheading {
 #nossos-gestores .gestor .content {
   padding-top: 20px;
 }
+
+#nossa-construtora section,
+#servicos section {
+  margin-top: 80px;
+  padding-bottom: 30px;
+}
+
+#nossa-construtora section .section-heading,
+#servicos section .section-heading {
+  padding-top: 20px;¬
+  border-top: 1px solid #e4e4e4;
+}
+
+#nossa-construtora header {
+  padding-top: 220px;
+  height: 470px;
+}
+
+@media (max-width: 480px) {
+  #nossa-construtora header,
+  #servicos header {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  #nossa-construtora header {
+    min-height: 621px;
+  }
+
+  #nossa-construtora header .container-fluid {
+    height: 400px !important;
+  }
+}
+
+#nossa-construtora header .container-fluid,
+#servicos header .container-fluid {
+  background-color: #ec6a0b;
+}
+
+#servicos header .container-fluid {
+  padding-bottom: 20px;
+}
+
+#nossa-construtora header .container-fluid {
+  height: 255px;
+}
+
+#nossa-construtora header .section-subheading,
+#servicos header .section-subheading {
+  font-size: 15px;
+  line-height: 32.33px;
+  margin-top:55px;
+}
+
+#nossa-construtora header .scroll-down,
+#servicos header .scroll-down {
+  font-size:20px;
+  margin-top:10px;
+  display: inline-block;
+  border: 2px solid #fff;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  line-height: 36px;
+  color: #fff;
+  outline: 0;
+}
+
 
 footer {
   padding: 25px 0;
